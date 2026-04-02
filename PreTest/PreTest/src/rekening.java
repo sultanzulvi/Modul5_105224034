@@ -8,10 +8,10 @@ public class rekening{
 
     public void setSaldo(int saldo){
         if(saldo < -1){
-            System.out.println("Saldo jangan minus!!")
+            System.out.println("Saldo jangan minus!!");
         }
         else(
-            System.out.println("Saldo anda : " + saldo)
+            System.out.println("Saldo anda : " + (this.saldo += saldo));
         )
     }
 }
