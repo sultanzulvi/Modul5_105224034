@@ -84,7 +84,7 @@ public class KamarHotel {
         System.out.println("Nomor Kamar   : " + nomorKamar);
         System.out.println("Tipe Kamar    : " + tipeKamar);
         System.out.println("Kapasitas Max : " + kapasitasMaksimal);
-        System.out.printf("Harga/Malam   : Rp%,.0f\n", hargaPerMalam);
+        System.out.printf("Harga/Malam : ", hargaPerMalam);
         System.out.println("Status        : " + (isTersedia ? "Tersedia" : "Terisi"));
         System.out.println("---------------------------------");
     }
